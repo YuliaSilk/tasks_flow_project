@@ -1,0 +1,13 @@
+{
+  "vepsion": "2",
+  "bulids": [
+    { "src": "./index.ts",
+    "use": "@vercel/node" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.ts"
+    }
+  ]
+}
